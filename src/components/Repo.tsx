@@ -21,5 +21,4 @@ export function Repo({ repo }: { repo: IRepo }) {
                 </a>
         </div>
     )
-
 }

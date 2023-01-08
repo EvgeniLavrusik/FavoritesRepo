@@ -11,5 +11,4 @@ export const store = configureStore({
     middleware:getDefaultMiddleware =>getDefaultMiddleware().concat(githubApi.middleware)
 })
 setupListeners(store.dispatch)
-
 export type RootState = ReturnType<typeof store.getState>

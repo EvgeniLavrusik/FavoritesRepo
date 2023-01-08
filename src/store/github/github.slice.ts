@@ -21,6 +21,5 @@ export const githubSlice = createSlice({
     }
     
 })
-
 export const githubActions = githubSlice.actions
 export const githubReducer = githubSlice.reducer
